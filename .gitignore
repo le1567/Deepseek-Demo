@@ -1,0 +1,19 @@
+# 前端依赖与构建产物
+node_modules/
+upstream/chat-demo/node_modules/
+upstream/chat-demo/dist/
+
+# APK 打包产物（通过 GitHub Releases 分发）
+dist/
+
+# 签名私钥，严禁提交
+tools/deepseek.keystore
+*.keystore
+*.jks
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
